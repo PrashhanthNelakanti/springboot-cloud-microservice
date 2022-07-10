@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.prashhanth</groupId>
-	<artifactId>inventory</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>inventory</name>
-	<description>Inventory Mangement System </description>
+	<artifactId>products</artifactId>
+	<version>1.0.0</version>
+	<name>products</name>
+	<description>Products Mangement System </description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
