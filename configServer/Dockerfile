@@ -1,0 +1,5 @@
+FROM openjdk:11
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} configServer.jar
+ENTRYPOINT ["java","-jar","/configServer.jar"]
+EXPOSE 9296
