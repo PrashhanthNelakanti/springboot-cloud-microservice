@@ -7,10 +7,11 @@
 service-registry git:(main) ✗ mvn clean install
 ```
 ### Once done! you get see SUCCESS Message like this for service-registry
-![](readme-imgs/service-reg-build.png)
+![](../readme-imgs/service-reg-build.png)
 
 ### Run the generated jar in target folder
-![](readme-imgs/running-jars/sevice-registry-jar.png)
+![](../readme-imgs/running-jars/sevice-registry-jar.png)
+
 
 ### The follwing mvn cmd to start the server
 
