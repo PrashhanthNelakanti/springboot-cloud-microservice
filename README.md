@@ -1,64 +1,20 @@
-# springboot-cloud-microservice
+# SpringBoot Cloud Microservice
 
-### How to clone the project 
+## How to clone the project 
 
 ```
 git clone https://github.com/PrashhanthNelakanti/springboot-cloud-microservice.git
 ```
-### How to run the project 
+## Running the Project 
 
-#### Let's start with service-registry service
-
-```
-service-registry git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for service-registry
-![](readme-imgs/service-reg-build.png)
-
-#### Let's run for cloud-gateway
-```
-cloud-gateway git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for cloud-gateway
-![](readme-imgs/cloud-gateway.png)
-
-#### Let's run for config-server
-```
-config-server git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for config-server
-![](readme-imgs/config-server.png)
-
-#### Let's run for hystrix-dashboard
-```
-hystrix-dashboard git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for hystrix-dashboard
-![](readme-imgs/hystrix-dashboard.png)
-
-
-
-#### Let's run for products
-```
-products git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for products
-![](readme-imgs/products.png)
-
-
-#### Let's run for inventory
-```
-inventory git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for inventory
-![](readme-imgs/inventory.png)
-
-#### Let's run for rps
-```
-rps git:(main) ✗ mvn clean install
-```
-#### Once done! you get see SUCCESS Message like this for rps
-![](readme-imgs/rps.png)
+### Let's start with service-registry server along with other cloud servers and services
+* [service-registery](service-registry/README.md)
+* [config-server](config-server/README.md)
+* [hystrix-dashboard](hystrix-dashboard/README.md)
+* [cloud-gateway](cloud-gateway/README.md)
+* [products](products/README.md)
+* [inventory](inventory/README.md)
+* [rps](rps/README.md)
 
 
 
