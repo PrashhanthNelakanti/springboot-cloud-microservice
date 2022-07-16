@@ -20,6 +20,24 @@ git clone https://github.com/PrashhanthNelakanti/springboot-cloud-microservice.g
 
 <img src="readme-imgs/eureka.png"/>
 
+### Starting Zipkin Server
+```
+product-microservice git:(main) ✗ java -jar zipkin-server-2.23.2-exec.jar
+
+```
+### Zipkin logs
+<img src="readme-imgs/zipkin-logs.png"/>
+
+### CloudGateway with Hystrix stream
+<img src="readme-imgs/cloud-gateway-stream.png"/>
+
+### Hystrix DashBoard ('localhost' worked for me rather than the ip add.)
+<img src="readme-imgs/hystrix-page.png"/>
+
+### Cloud Config response
+<img src="readme-imgs/cloud-config-resp.png"/>
+
+
 
 
 
