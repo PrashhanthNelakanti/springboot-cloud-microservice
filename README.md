@@ -18,7 +18,7 @@ git clone https://github.com/PrashhanthNelakanti/springboot-cloud-microservice.g
 
 ### Now, once all the services are up and running we can verify on the service-registry
 
-<img src="../readme-imgs/eureka.png"/>
+<img src="readme-imgs/eureka.png"/>
 
 
 
