@@ -16,6 +16,10 @@ git clone https://github.com/PrashhanthNelakanti/springboot-cloud-microservice.g
 * [inventory](inventory/README.md)
 * [rps](rps/README.md)
 
+### Now, once all the services are up and running we can verify on the service-registry
+
+<img src="../readme-imgs/eureka.png"/>
+
 
 
 
