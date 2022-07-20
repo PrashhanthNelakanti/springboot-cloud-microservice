@@ -1,8 +1,9 @@
-package com.schwab.rps.com.schwab.rps.controller;
+package com.prashhanth.rps.controller;
 
-import com.schwab.rps.com.schwab.rps.pojo.EmailMetaData;
-import com.schwab.rps.com.schwab.rps.repo.EmailMetaDataRepo;
-import com.schwab.rps.com.schwab.rps.service.EmailMetaDataService;
+
+import com.prashhanth.rps.pojo.EmailMetaData;
+import com.prashhanth.rps.repo.EmailMetaDataRepo;
+import com.prashhanth.rps.service.EmailMetaDataService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 @RestController

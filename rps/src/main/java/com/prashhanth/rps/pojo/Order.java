@@ -1,4 +1,4 @@
-package com.schwab.rps.com.schwab.rps.pojo;
+package com.prashhanth.rps.pojo;
 
 
 import lombok.AllArgsConstructor;

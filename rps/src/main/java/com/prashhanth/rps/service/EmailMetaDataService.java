@@ -1,7 +1,7 @@
-package com.schwab.rps.com.schwab.rps.service;
+package com.prashhanth.rps.service;
 
-import com.schwab.rps.com.schwab.rps.pojo.EmailMetaData;
-import com.schwab.rps.com.schwab.rps.repo.EmailMetaDataRepo;
+import com.prashhanth.rps.pojo.EmailMetaData;
+import com.prashhanth.rps.repo.EmailMetaDataRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +9,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
-import java.sql.Date;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 

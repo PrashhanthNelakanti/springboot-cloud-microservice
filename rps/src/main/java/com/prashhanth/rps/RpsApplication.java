@@ -1,4 +1,4 @@
-package com.schwab.rps;
+package com.prashhanth.rps;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

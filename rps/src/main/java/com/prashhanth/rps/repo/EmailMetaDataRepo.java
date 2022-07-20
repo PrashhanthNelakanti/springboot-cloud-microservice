@@ -1,6 +1,6 @@
-package com.schwab.rps.com.schwab.rps.repo;
+package com.prashhanth.rps.repo;
 
-import com.schwab.rps.com.schwab.rps.pojo.EmailMetaData;
+import com.prashhanth.rps.pojo.EmailMetaData;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
