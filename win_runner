@@ -1,0 +1,4 @@
+Dim oShell
+ Set oShell = WScript.CreateObject ("WScript.Shell") 
+ oShell.run "cmd /k CD hystrix-dashboard/target & java -jar hystrix-dashboard-0.0.1-SNAPSHOT.jar"
+ oShell.run "cmd /k CD service-registry/target & java -jar service-registry-0.0.1-SNAPSHOT.jar"
