@@ -1,8 +1,18 @@
 #!/bin/bash
+#!/bin/bash
 
 echo "Script executed from: ${PWD}"
 chmod +x ${PWD}
-cd service-registr
-./install_run.sh
+cd service-registry
+
+mvn clean install
 cd ../cloud-gateway
-./install_run.sh
+mvn clean install
+cd ../hystrix-dashboard
+mvn clean install
+cd ../config-server
+mvn clean install
+cd ../products
+mvn clean install
+cd ../rps
+mvn clean install
